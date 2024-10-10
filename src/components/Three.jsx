@@ -15,7 +15,7 @@ const Models = [
   // { title: 'antorcha2', url: './antorcha2.glb', miEscala: .5, miPosicion: -0.3 },
   // { title: 'antorcha1', url: './antorcha1.glb', miEscala: .5, miPosicion: -0.3 },
   // { title: '1g0004', url: './1g0004.glb', miEscala: .6, miPosicion: .0 },
-  { title: 'karina', url: './karina.glb', miEscala: 1, miPosicion: .3 },
+  { title: 'karina1', url: './karina1.glb', miEscala: 1, miPosicion: .3 },
   // { title: 'FRUTOS', url: './FRUTOS.glb', miEscala: 1.3, miPosicion: .2 },
 ]
 
@@ -74,7 +74,7 @@ export default function EstucheConAsas({ title, escala, posicion }) {
         <pointLight position={[-100, 100, 100]} intensity={66666} decay={2} />
         <pointLight position={[100, -100, -100]} intensity={66666} decay={2} />
         <pointLight position={[100, -100, 100]} intensity={66666} decay={2} />
-        {/* <ambientLight intensity={2} /> */}
+        <ambientLight intensity={2} />
         <Suspense fallback={<Fallback />}>
           {modelUrl && <Model url={modelUrl} miEscala={modelEscala} miPosicion={modelPosicion} />}
         </Suspense>
