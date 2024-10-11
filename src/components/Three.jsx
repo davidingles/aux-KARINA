@@ -15,7 +15,9 @@ const Models = [
   // { title: 'antorcha2', url: './antorcha2.glb', miEscala: .5, miPosicion: -0.3 },
   // { title: 'antorcha1', url: './antorcha1.glb', miEscala: .5, miPosicion: -0.3 },
   // { title: '1g0004', url: './1g0004.glb', miEscala: .6, miPosicion: .0 },
-  { title: 'karina1', url: './karina1.glb', miEscala: 1, miPosicion: .3 },
+  { title: 'blanco-negro', url: './blanco-negro.glb', miEscala: 1, miPosicion: .3 },
+  { title: 'marron', url: './marron.glb', miEscala: 1, miPosicion: .3 },
+  { title: 'blanco', url: './blanco.glb', miEscala: 1, miPosicion: .3 },
   // { title: 'FRUTOS', url: './FRUTOS.glb', miEscala: 1.3, miPosicion: .2 },
 ]
 
